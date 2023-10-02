@@ -3,7 +3,7 @@
 
 const dgram = require('dgram');
 const socket = dgram.createSocket('udp4');
-const target = '<target IP address>';
+const target = '192.168.1.1';
 
 // Create an array of ICMP packets
 const packets = [];
