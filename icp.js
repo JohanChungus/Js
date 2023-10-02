@@ -2,7 +2,7 @@
 
 //Create an ICMP header
 function createICMPHeader(type, code){
-    return [type, code, 69696, 9393939];
+    return [type, code, 255, 9393939];
 }
 
 //Send an ICMP packet to the target IP
